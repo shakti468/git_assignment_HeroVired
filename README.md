@@ -59,33 +59,19 @@ This project is part of the **HeroVired Git Assignment**. It is a simple calcula
 
 ## Screenshots
 
-### 1. Repository Creation
-_(Add Screenshot Here)_
+### Repository Creation
+![image](https://github.com/user-attachments/assets/2e6c1dd4-fd00-4edc-b0cf-6907cbb401d3)
 
-### 2. Creating and Switching to `dev` Branch
-_(Add Screenshot Here)_
+### Implementing Calculator Features and fixing the Division Bug
+![image](https://github.com/user-attachments/assets/d4abfd35-f4da-43f6-b4bc-e23c5f9a5ff3)
 
-### 3. Implementing Calculator Features
-_(Add Screenshot Here)_
+### Output 
+![image](https://github.com/user-attachments/assets/c4a2257e-9ce4-4fa6-826a-3268d5c9ba86)
 
-### 4. Committing and Pushing Changes
-_(Add Screenshot Here)_
 
-### 5. Merging `dev` into `main` (Version 1.0 Release)
-_(Add Screenshot Here)_
 
-### 6. Creating Feature Branch `feature/sqrt`
-_(Add Screenshot Here)_
-
-### 7. Fixing the Division Bug in `dev`
-_(Add Screenshot Here)_
-
-### 8. Merging `feature/sqrt` into `dev` and Creating Version 2.0
-_(Add Screenshot Here)_
 
 ## Conclusion
 The **CalculatorPlus** application successfully implements basic arithmetic operations along with the square root feature. The Git workflow includes proper branching, merging, and release management, ensuring a structured development process.
 
----
-**Repository Link:** _(Add Link Here)_
 
