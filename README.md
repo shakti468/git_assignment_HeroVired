@@ -181,7 +181,7 @@ Git LFS successfully helps manage large files efficiently in Git.
 
 ---
 
-# Geometry Calculator - Git Workflow
+# Geometry Calculator 
 
 ## 📌 Project Overview
 The **Geometry Calculator** is a Python program that calculates:
