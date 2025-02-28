@@ -181,6 +181,105 @@ Git LFS successfully helps manage large files efficiently in Git.
 
 ---
 
+# Geometry Calculator - Git Workflow
+
+## 📌 Project Overview
+The **Geometry Calculator** is a Python program that calculates:
+- The **area of a circle** given a radius.
+- The **area of a rectangle** given its length and width.
+
+This project follows a structured **Git workflow**, utilizing **branching, stashing, merging, and pull requests** to manage the feature development.
+
+
+
+
+### 🔹 Run the Script:
+```sh
+python geometry_calculator.py
+```
+
+## Git Workflow
+
+### ✅ Step 1: Create the `geometry-calculator` Branch
+```sh
+git checkout -b geometry-calculator
+```
+
+### ✅ Step 2: Create Feature Branches
+
+#### ➤ Circle Area Feature:
+```sh
+git checkout -b feature/circle-area
+```
+
+#### ➤ Rectangle Area Feature:
+```sh
+git stash  # Stash incomplete circle area work
+git checkout -b feature/rectangle-area
+```
+
+### ✅ Step 3: Implement Features & Stash Changes
+
+#### ➤ Implement Circle Area & Stash:
+```sh
+git stash  # Save incomplete work
+```
+
+#### ➤ Implement Rectangle Area & Stash:
+```sh
+git stash  # Save incomplete work
+```
+
+### ✅ Step 4: Retrieve & Finalize Changes
+
+#### ➤ Restore and Commit Circle Area:
+```sh
+git checkout feature/circle-area
+git stash pop  # Retrieve stashed changes
+git add geometry_calculator.py
+git commit -m "Implemented circle area calculation"
+git push origin feature/circle-area
+```
+
+#### ➤ Restore and Commit Rectangle Area:
+```sh
+git checkout feature/rectangle-area
+git stash pop  # Retrieve stashed changes
+git add geometry_calculator.py
+git commit -m "Implemented rectangle area calculation"
+git push origin feature/rectangle-area
+```
+
+### ✅ Step 5: Create Pull Requests & Merge
+
+#### ➤ Create PRs:
+- **feature/circle-area → dev**
+- **feature/rectangle-area → dev**
+
+#### ➤ Merge Approved PRs:
+```sh
+git checkout dev
+git merge feature/circle-area
+git merge feature/rectangle-area
+git push origin dev
+```
+
+#### ➤ Final Merge to Main:
+```sh
+git checkout main
+git merge dev
+git push origin main
+```
+
+---
+
+##  Expected Output
+![image](https://github.com/user-attachments/assets/091489ff-4221-4e6b-9b33-1a171341e82b)
+
+
+---
+
+
 
 
 
