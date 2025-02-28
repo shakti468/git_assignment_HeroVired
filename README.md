@@ -71,6 +71,8 @@ This project is part of the **HeroVired Git Assignment**. It is a simple calcula
 ## Conclusion
 This application successfully implements basic arithmetic operations along with the square root feature. The Git workflow includes proper branching, merging, and release management, ensuring a structured development process.
 
+---
+
 
 # Git LFS for Large Files (Question 2)
 
@@ -155,13 +157,11 @@ This should list the file being tracked by Git LFS.
 ## **Step 7: Clone the Repository on Another Machine**
 To verify that Git LFS is correctly handling the file, clone the repository on another machine:
 ```bash
-git clone https://github.com/your-username/git_assignment_HeroVired.git
+git clone https://github.com/shakti468/git_assignment_HeroVired.git
 cd git_assignment_HeroVired
 ls -lh SampleVideo.mp4
 ```
 If the file is downloaded with the correct size, Git LFS is working properly.
-
-### **Screenshot:** Cloning Repository and Checking File Size
 
 ## **Step 8: Merge `lfs` Branch into `main`**
 After verifying everything, merge the `lfs` branch into `main`:
@@ -173,11 +173,13 @@ git push origin main
 
 ### **Screenshot:** Merging LFS Branch into Main
 
+![image](https://github.com/user-attachments/assets/ba463703-6c30-4dd7-9c54-4d804cdabb91)
+
+
 ## **Conclusion**
-Git LFS successfully helps manage large files efficiently in Git. Following these steps ensures proper tracking and storage of large binary files without bloating the repository.
+Git LFS successfully helps manage large files efficiently in Git.
 
 ---
-✅ **Git LFS Setup Completed Successfully!** 🚀
 
 
 
